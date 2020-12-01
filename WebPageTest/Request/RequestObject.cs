@@ -18,7 +18,7 @@ namespace WebPageTest.Request
 
         public override string ToString()
         {
-            apiKey = " AIzaSyDkLP18qfc7EodkeSk_PZROUpKaUfXDsOc "; //api key is hard-coded
+            apiKey = "*****"; //api key is hard-coded here, please enter you API key
             string finalUrl = baseUrl;
             finalUrl = append(finalUrl, "?url=", pageUrl);
             finalUrl = append(finalUrl, "&category=", category);
